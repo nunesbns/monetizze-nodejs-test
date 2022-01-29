@@ -48,7 +48,7 @@ console.log('Encode Testing')
 console.log(`Input: ${encodeInput} | Encoded output: ${encodeOutput} | Expected: ${encodeExpected}`)
 console.assert(encodeOutput === encodeExpected, 'A saída não corresponde ao valor esperado')
 
-/* Encode Testing */
+/* Decode Testing */
 
 let decodeInput = '79501862390111166'
 const decodeOutput = decodeString(decodeInput)
